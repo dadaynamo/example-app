@@ -17,13 +17,9 @@ Route::get('/','WelcomeController@welcome');
 
 Route::get('/{name?}/{lastname?}/{age?}','WelcomeController@welcome')->where(['name'=>'[a-zA-Z]+', 'lastname'=>'[a-zA-Z]+','age'=>'[0-9]{0,3}']);;
 
-/*ciao tes deploy
-sgd
-gdgsgsggregeg
-g
-g
+/*ciao test committ deploy su git hub
 
-g
+
 */
 
 /*
